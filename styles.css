@@ -1,0 +1,89 @@
+/* Body styling */
+body {
+  background-color: black;
+}
+
+/* Paragraph styling */
+p {
+  color: beige;
+}
+
+/* Centered container styling */
+.center-div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Game board styling */
+#gameboard {
+  width: 320px;
+  height: 320px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Square styling */
+.square {
+  width: 40px;
+  height: 40px;
+  position: relative;
+}
+
+/* SVG (chess piece) styling */
+.square svg {
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  position: relative;
+  z-index: -9;
+}
+
+/* Path styling for SVG */
+path {
+  position: relative;
+  z-index: -10;
+}
+
+/* Chess piece styling */
+.piece {
+  position: relative;
+  z-index: 9;
+}
+
+/* Gray square styling */
+.gray {
+  background-color: gray;
+  /* background-color: rgb(158, 158, 148); */
+  /* background-color: #248232; */
+  /* background-color: #798478; */
+  /* background-color: #98473E; */
+  /* background-color: #F2A359; */
+  /* background-color: #F5B553; */
+}
+
+/* Brown square styling */
+.brown {
+  background-color: brown;
+  /* background-color: #2BA84A; */
+  /* background-color: #4D6A6D; */
+  /* background-color: #A37C40; */
+  /* background-color: #B0413E; */
+  /* background-color: brown; */
+  /* background-color: #854836; */
+
+
+}
+
+/* Black chess piece styling */
+.black {
+  fill: black;
+}
+
+/* White chess piece styling */
+.white {
+  fill: white;
+  /* fill: #F7F7F7; */
+}
+
